@@ -1,0 +1,416 @@
+<!DOCTYPE HTML>
+<!--
+	Helios 1.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Charity Clarity</title>
+
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/skel-noscript.css" />
+
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-noscript.css" />
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
+        
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript" src="js/jquery.csv-0.71.js"></script>
+
+		<script src="js/html5shiv.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		
+        <script src="scriptAS.js" type="text/javascript"></script>
+        <script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
+        <script src="popupScriptAS.js" type="text/javascript" ></script>
+        <script src="scriptPopACS.js" type="text/javascript"></script>
+        <script src="scriptPopFA.js" type="text/javascript"></script>
+        <script src="scriptPopHFH.js" type="text/javascript"></script>
+        <script src="popupScriptCFA.js" type="text/javascript"></script>
+
+	</head>
+
+	<body class="homepage">
+
+		<!-- Header -->
+			<div id="header">
+						
+				<!-- Inner -->
+					<div class="inner">
+						<header>
+							<h1><a href="#" id="logo">Charity Clarity</a></h1>
+							<hr />
+							<span id="logosub" class="byline">click below to see featured charities</span>
+						</header>
+						<footer>
+							<a href="#banner" class="button circled scrolly">View</a>
+						</footer>
+					</div>
+				
+				<!-- Nav -->
+					<nav id="nav" class="white">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<span>Charities</span>
+								<ul>
+									<li><a href="#ACS">American Cancer Society</a></li>
+									<li><a href="#AS">Autism Speaks</a></li>
+                                    <li><a href="#CFA">Cancer Fund of America</a></li>
+									<li><a href="#DVNF">Disabled Veterans National Foundation</a></li>
+                                    <li><a href="#FA">Feeding America</a></li>
+                                    <li><a href="#HFH">Habitat for Humanity</a></li>
+								</ul>
+							</li>
+                            <li><a href="aboutdata.html" >About the Data</a></li>
+                            <li><a href="compare.html">Compare Charities</a></li>
+						</ul>
+					</nav>
+
+			</div>
+			
+		<!-- Banner -->
+			<div id="banner">
+				<h2> Featured Charities<strong></strong></h2>
+                <br></br>
+				<!--<span class="byline">-->
+					<!--A (free) responsive site template by <a href="http://html5up.net/">HTML5 UP</a>.-->
+					<!--Built on <a href="http://skeljs.org">skelJS</a> and released under the <a href="http://html5up.net/license/">CCA</a> license.-->
+				<!--</span>-->
+			</div>
+
+		<!-- Carousel -->
+			<div class="carousel">
+				<div class="reel">
+
+					<article>
+						<a class="image featured"><img src="images/photoshop%20images/ACS.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#ACS">American Cancer Society</a></h3>
+						</header>
+						<p>The American Cancer Society is a nationwide voluntary health organization dedicated to eliminating cancer.</p>
+					</article>
+				
+					<article>
+						<a class="image featured"><img src="images/photoshop%20images/AS.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#AS">Autism Speaks</a></h3>
+						</header>
+						<p>Autism Speaks is an advocacy organization in the US that sponsors autism research and conducts awareness and outreach activities.</p>
+					</article>
+				
+					<article>
+						<a class="image featured"><img src="images/photoshop%20images/DVNF.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#DVNF">Disabled Veterans National Foundation</a></h3>
+						</header>
+						<p>This is a registered charity that provides service for disabled, sick, and wounded veterans.</p>
+					</article>
+				
+					<article>
+						<a class="image featured"><img src="images/photoshop%20images/FA.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#FA">Feeding America</a></h3>
+						</header>
+						<p>Feeding America is a nationwide network of food banks that feeds more that 37 million people through food pantries, soup kitchens and shelters.</p>
+					</article>
+				
+					<article>
+						<a class="image featured"><img src="images/photoshop%20images/HFH.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#HFH">Habitat for Humanity</a></h3>
+						</header>
+						<p>Habitat for Humanity is devoted to building affordable housing, and has addressed the issues of poverty housing all over the world.</p>
+					</article>
+				</div>
+			</div>
+			
+<!-- American Cancer Society -->
+
+        <div class="wrapper style2">
+
+				<article id="ACS" class="container special">
+
+					<header>
+						<h2><a href="http://www.cancer.org/" target="_blank">American Cancer Society</a></h2>
+						<span class="byline">
+							 The American Cancer Society's stated mission is to support persons with cancer and eventually eliminate the disease by funding cancer research, patient services, early detection, treatment and education. Its total expenses are $990,489, and the money spent on programs supporting their mission (Program Expenses) totals $713,491. The average donation amount is $50.
+						</span>
+                    </header>
+
+                    <a class="image featured">
+                        <div class="charts" id="chartDiv"></div>
+                        <div class="popups">
+                            <div class="chartsPopup" id="popupDivACS"></div>
+                            <button type="button" class="button popup popover-dismiss" id="ACSProgramPop">Breakdown of Program Expenses</button>
+
+                        </div>
+                    </a>
+
+
+                    <p>
+						<div class="Contact">
+                            <header><strong>Contact American Cancer Society Today:</strong></header>
+                                <p>
+                                    Phone: 1-800-227-2345<br>Email: <a href="http://www.cancer.org/aboutus/howwehelpyou/app/contact-us.aspx" target="_blank">Email American Cancer Society</a> <br> Donate: <a href="https://donate.cancer.org/index" target="_blank">donate.cancer.org</a>
+                                </p>
+						</div>
+
+					</p>
+					<footer>
+						<a href="#header" class="button">Back to Top</a>
+					</footer>
+				</article>
+
+			</div>
+
+
+<!-- Autism Speaks-->
+
+        <div class="wrapper style2">
+
+            <article id="AS" class="container special">
+
+
+
+                <header>
+                    <h2><a href="http://www.autismspeaks.org/" target="_blank" >Autism Speaks</a></h2>
+						<span class="byline">
+							Autism Speaks' stated mission is to improve the futures of individuals with autism by raising awareness and funding global biomedical research into causes, prevention, treatments and a possible cure for autism. Its total expenses are $64,127,886, and the money spend on programs supporting their mission (Program Expenses) totals $58,817,403. It is based in New York.
+						</span>
+                </header>
+
+
+                <a class="image featured">
+                    <div class="charts" id="chartDivAS"></div>
+                    <div class="popups">
+                        <div class="chartsPopup" id="popupDivAS"></div>
+                        <button type="button" class="button popup popover-dismiss" id="autismProgramPop">Breakdown of Program Expenses</button>
+                    </div>
+                </a>
+
+                <p>
+                    <div class="Contact">
+                        <header><strong>Contact Autism Speaks Today:</strong></header>
+                        <p>
+                            Phone: 888-288-4762 <br>Email: <a href="mailto:familyservices@autismspeaks.org">familyservices@autismspeaks.org</a> <br> Donate: <a href="https://secure.autismspeaks.org/site/c.8hKPL7NMLpJ4G/b.8844069/k.C240/Donate.htm?utm_source=autismspeaks.org&utm_medium=button&utm_content=donate-now&utm_campaign=waysgive&msource=waysgive" target="_blank">autismspeaks.org</a>
+                        </p>
+                    </div>
+                </p>
+                <footer>
+                    <a href="#header" class="button">Back to Top</a>
+                </footer>
+            </article>
+
+        </div>
+
+<!-- Cancer Fund of America -->
+
+        <div class="wrapper style2">
+
+            <article id="CFA" class="container special">
+
+
+
+                <header>
+                    <h2><a href="http://www.cfoa.org/" target="_blank">Cancer Fund of America</a></h2>
+						<span class="byline">
+                            Cancer Fund of America's stated mission is to provide aid to cancer patients, hospices, health care providers, and other non-profit organizations that support the ill by providing certain products free of charge. Its total expenses are $22,186,177, and the money spent on programs supporting its mission totals $9,314,634. The average donation amount is $100.
+						</span>
+                </header>
+
+
+                <a class="image featured">
+                    <div class="charts" id="chartDivCFA"></div>
+                    <div class="popups">
+                        <div class="chartsPopup" id="popupDivCFA"></div>
+                        <button  type="button" class="button popup popover-dismiss" id="CFAProgramPop">Breakdown of Program Expenses</button>
+
+                    </div>
+                </a>
+
+
+                <p>
+                <div class="Contact">
+                    <header><strong>Contact Cancer Fund of America Today:</strong></header>
+                    <p>
+                        Phone: 1-800-578-5284 <br>Email: <a href="mailto:info@cfoa.org">info@cfoa.org</a> <br> Donate: <a href="http://www.cfoa.org/blog/donate/" target="_blank">cfoa.org/donate</a>
+                    </p>
+                </div>
+                </p>
+                <footer>
+                    <a href="#header" class="button">Back to Top</a>
+                </footer>
+            </article>
+
+        </div>
+
+<!--Disabled Veterans National Foundation -->
+
+        <div class="wrapper style2">
+
+            <article id="DVNF" class="container special">
+
+
+
+                <header>
+                    <h2><a href="http://www.dvnf.org/" target="_blank">Disabled Veterans National Foundation</a></h2>
+						<span class="byline">
+							The Disabled Veterans National Foundation's stated mission is to ​provide critically needed​ support ​to disabled and at-risk veterans who leave the military with physical or psychological complaints. It provides counseling and direct financial support to veterans. Its total expenses are $27,698,827, and money spent on programs offered by the organization totals $12,605,683.
+						</span>
+                </header>
+
+
+                <a class="image featured">
+                    <div class="charts" id="chartDivDVNF"></div>
+                    <div class="popups">
+                        <button  type="button" class="button popup popover-dismiss" data-toggle="popover" data-placement="top" data-content="Due to unclear information within the financials provided by the Disabled Veterans National Foundation, a program expenses breakdown is unavailable for this organization.">Breakdown of Program Expenses</button>
+
+                    </div>
+                </a>
+
+
+                <p>
+                    <div class="Contact">
+                        <header><strong>Contact The Disabled Veterans National Foundation Today:</strong></header>
+                        <p>
+                            Phone: 202-737-0522 <br>Email: <a href="mailto:info@dvnf.org">info@dvnf.org</a> <br> Donate: <a href="https://donate.dvnf.org/dvnf/main.php/micro_sites/showpage?id=41&page_number=1" target="_blank">donate.dvnf.org</a>
+                        </p>
+                    </div>
+                </p>
+                <footer>
+                    <a href="#header" class="button">Back to Top</a>
+                </footer>
+            </article>
+
+        </div>
+
+
+<!-- Feeding America -->
+
+        <div class="wrapper style2">
+
+            <article id="FA" class="container special">
+
+
+
+                <header>
+                    <h2><a href="http://secure.feedingamerica.org" target="_blank">Feeding America</a></h2>
+
+						<span class="byline">
+							Feeding America is a domestic hunger-relief organization whose stated mission is to provide food for the hungry through a network of member food banks including soup kitchens and shelters. Its total expenses are $1,602,695, and the money spent on program that support its mission (Program Expenses) totals $1,570,531. It reaches approximately 37 million people.
+						</span>
+                </header>
+
+                <a class="image featured">
+                    <div class="charts" id="chartDivFA"></div>
+                    <div class="popups">
+                        <div class="chartsPopup" id="popupDivFA"></div>
+                        <button type="button" class="button popup popover-dismiss" id="FAProgramPop">Breakdown of Program Expenses</button>
+                    </div>
+                </a>
+
+
+                <p>
+                    <div class="Contact">
+                        <header><strong>Contact Feeding America Today:</strong></header>
+                        <p>
+                            Phone: 800-771-2303 <br>Email: <a href="https://secure.feedingamerica.org/site/SPageServer?pagename=contactus&s_src=W147REFER&s_referrer=localhost%3A63342&s_subsrc=Feeding%20America&_ga=1.74870674.1482772192.1406049406" target="_blank">feedingamerica.org</a> <br> Donate: <a href="https://secure.feedingamerica.org/site/Donation2?df_id=15040&15040.donation=form1&s_subsrc=Ways%20to%20Give&s_src=W147REFER&_ga=1.74870674.1482772192.1406049406" target="_blank">donate.feedingamerica.org</a>
+                        </p>
+                    </div>
+                </p>
+                <footer>
+                    <a href="#header" class="button">Back to Top</a>
+                </footer>
+            </article>
+
+        </div>
+
+
+<!-- Habitat for Humanity -->
+
+        <div class="wrapper style2">
+
+            <article id="HFH" class="container special">
+
+
+                <header>
+                    <h2><a href="http://www.habitat.org/" target="_blank">Habitat for Humanity</a></h2>
+						<span class="byline">
+							Habitat for Humanity is a Christian housing ministry whose stated mission is to provide global affordable housing by bringing volunteers together to build shelters and advocate for fair housing policies. Its total expenses are $329,602,405, and money spend on programs supporting its mission totals $277,304,140.
+						</span>
+                </header>
+
+                <a class="image featured">
+                    <div class="charts" id="chartDivHFH"></div>
+                    <div class="popups">
+                        <div class="chartsPopup" id="popupDivHFH"></div>
+                        <button type="button" class="button popup popover-dismiss" id="HFHProgramPop">Breakdown of Program Expenses</button>
+                    </div>
+                </a>
+
+
+                <p>
+                    <div class="Contact">
+                        <header><strong>Contact Habitat for Humanity Today:</strong></header>
+                        <p>
+                            Phone: 1-800-422-4828<br>Email: <a href="http://www.habitat.org/getinv/contact.aspx" target="_blank">ussupportcenter@habitat.org</a> <br> Donate: <a href="https://www.habitat.org/cd/giving/one/donate.aspx?link=1&source_code=DHQOW1311W2001" target="_blank">habitat.org</a>
+                        </p>
+                    </div>
+                </p>
+                <footer>
+                    <a href="#header" class="button">Back to Top</a>
+                </footer>
+            </article>
+
+        </div>
+
+
+
+
+
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+
+							
+							 <!--Contact-->
+								<section class="contact">
+									<header>
+										<h3></h3>
+									</header>
+									<p></p>
+									<ul class="icons">
+										<li><a href="#" class="fa fa-twitter solo"><span>Twitter</span></a></li>
+										<li><a href="#" class="fa fa-facebook solo"><span>Facebook</span></a></li>
+										<li><a href="#" class="fa fa-google-plus solo"><span>Google+</span></a></li>
+										<li><a href="#" class="fa fa-pinterest solo"><span>Pinterest</span></a></li>
+										<li><a href="#" class="fa fa-dribbble solo"><span>Dribbble</span></a></li>
+										<li><a href="#" class="fa fa-linkedin solo"><span>Linkedin</span></a></li>
+									</ul>
+								</section>
+							
+							<!-- Copyright -->
+								<div class="copyright">
+									<ul class="menu">
+										<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+									</ul>
+								</div>
+							
+						</div>
+					
+					</div>
+				</div>
+			</div>
+
+	</body>
+</html>
+
